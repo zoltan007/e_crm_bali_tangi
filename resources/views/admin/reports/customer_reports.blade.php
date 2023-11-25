@@ -41,28 +41,28 @@
                                 <tbody>                                                                    
                                     <tr>
                                         <td>
-                                            1
+                                            
                                         </td>
                                         <td>
-                                            Daniel Zoltan
+                                          
                                         </td>                                        
                                         <td>
-                                            danielsyahreza@gmail.com
+                                           
                                         </td>
                                         <td>
-                                            0817418374203874
+                                           
                                         </td>
                                         <td>
-                                            Pasraman Unud B.73
+                                            
                                         </td>
                                         <td>
-                                            19 Juli 1999
+                                            
                                         </td>
                                         <td>
-                                            7
+                                            
                                         </td>
                                         <td>
-                                            24-05-2023
+                                           
                                         </td>                                          
                                     </tr>
                                 </tbody>
