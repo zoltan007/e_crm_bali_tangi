@@ -35,7 +35,9 @@
                                         <th>
                                             Tanggal Pembelian Terakhir
                                         </th>
-                                        
+                                        <th>
+                                            Total pengeluaran
+                                        </th>                                        
                                     </tr>
                                 </thead>
                                 <tbody>                                                                    
@@ -63,7 +65,10 @@
                                         </td>
                                         <td>
                                            
-                                        </td>                                          
+                                        </td>
+                                        <td>
+                                           
+                                        </td>                                           
                                     </tr>
                                 </tbody>
                             </table>
