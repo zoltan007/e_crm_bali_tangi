@@ -7,7 +7,7 @@
                     <tr>
                         <th class="text-left">Produk</th>
                         <th class="text-left">Harga Unit</th>
-                        <th class="text-left">Stok</th>
+                        <th class="text-left">Status Ketersediaan</th>
                         <th class="text-right">Aksi</th>
                     </tr>
                 </thead>
@@ -17,7 +17,7 @@
                     <?php $getDiscountAttributePrice = Product::getDiscountAttributePrice($item['product_id'],$item['size']);
                     ?>
                     <tr>
-                        <td class="text-center">
+                        <td class="text-left">
                             <div class="cart-anchor-image">
                                 <a href="{{ url('produk/'.$item['product_id'])}}">
                                     <img src="{{ asset('front/images/product_images/small/'.$item['product']['product_image']) }}" alt="Product">
@@ -27,8 +27,8 @@
                                     </h6>
                                 </a>
                             </div>
-                        </td>
-                        <td>
+                        </td>                     
+                        <td class="text-left">
                                 <div class="cart-price">
                                 @if($getDiscountAttributePrice['discount']>0)
                                 <div class="price-template">
@@ -48,8 +48,9 @@
                             @endif
                             </div>
                         </td>
-    
-                        <td class="text-center">
+                        <td>
+                        </td>    
+                        <td class="text-right">
                             <div class="action-wrapper">
                                 <form action="{{ url('cart/add') }}" class="post-form" method="Post">@csrf
                                    
