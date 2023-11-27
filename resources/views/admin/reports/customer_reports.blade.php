@@ -24,19 +24,20 @@
                                             No. Telepon
                                         </th>
                                         <th>
-                                            Alamat
-                                        </th>
-                                        <th>
                                             Tanggal Lahir
                                         </th>
-                                        <th>
-                                            Jumlah Transaksi
+                                        <th class="text-center">
+                                            Jumlah 
+                                            <br>
+                                            Transaksi
                                         </th>
-                                        <th>
-                                            Tanggal Pembelian Terakhir
+                                        <th class="text-center">
+                                            Tanggal<br>
+                                            Pembelian Terakhir
                                         </th>
-                                        <th>
-                                            Total pengeluaran
+                                        <th class="text-center">
+                                            Total<br>
+                                            pengeluaran
                                         </th>                                        
                                     </tr>
                                 </thead>
@@ -49,10 +50,7 @@
                                           
                                         </td>                                        
                                         <td>
-                                           
-                                        </td>
-                                        <td>
-                                           
+                                                                                                                            
                                         </td>
                                         <td>
                                             
