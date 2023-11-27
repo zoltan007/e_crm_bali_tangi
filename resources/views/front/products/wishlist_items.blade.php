@@ -5,9 +5,10 @@
             <table>
                 <thead>
                     <tr>
-                        <th class="text-center">Produk</th>
-                        <th class="text-center">Harga Unit</th>
-                        <th class="text-center">Aksi</th>
+                        <th class="text-left">Produk</th>
+                        <th class="text-left">Harga Unit</th>
+                        <th class="text-left">Stok</th>
+                        <th class="text-right">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
