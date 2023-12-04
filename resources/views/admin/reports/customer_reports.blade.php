@@ -8,68 +8,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Laporan Pelanggan</h4>                     
                         <div class="table-responsive pt-3">
-                            <table id="reports" class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>
-                                            ID
-                                        </th>
-                                        <th>
-                                            Nama
-                                        </th>                                    
-                                        <th>
-                                            E-mail
-                                        </th>
-                                        <th>
-                                            No. Telepon
-                                        </th>
-                                        <th>
-                                            Tanggal Lahir
-                                        </th>
-                                        <th class="text-center">
-                                            Jumlah 
-                                            <br>
-                                            Transaksi
-                                        </th>
-                                        <th class="text-center">
-                                            Tanggal<br>
-                                            Pembelian Terakhir
-                                        </th>
-                                        <th class="text-center">
-                                            Total<br>
-                                            pengeluaran
-                                        </th>                                        
-                                    </tr>
-                                </thead>
-                                <tbody>                                                                    
-                                    <tr>
-                                        <td>
-                                            
-                                        </td>
-                                        <td>
-                                          
-                                        </td>                                        
-                                        <td>
-                                                                                                                            
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                        <td>
-                                           
-                                        </td>
-                                        <td>
-                                           
-                                        </td>                                           
-                                    </tr>
-                                </tbody>
-                            </table>
+                            
                         </div>
                     </div>
                 </div>

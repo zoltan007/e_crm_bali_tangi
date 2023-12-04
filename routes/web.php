@@ -73,7 +73,6 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         Route::get('delete-attribute/{id}','ProductsController@deleteAttribute');
         Route::match(['get','post'],'edit-attributes/{id}','ProductsController@editAttributes');
         
-
         // Images
         Route::match(['get','post'],'add-images/{id}','ProductsController@addImages');
         Route::post('update-image-status','ProductsController@updateImageStatus');
@@ -98,6 +97,10 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
 
         //Newsletters
         Route::get('newsletters','NewslettersController@newsletters');
+
+        //Live Chats
+        Route::get('live-chats','ChatsController@chats');
+     
 
         //Orders
         Route::get('orders', 'OrdersController@orders');
@@ -170,12 +173,8 @@ Route::namespace('App\Http\Controllers\Front')->group(function(){
     // Thanks
     Route::get('thanks','ProductsController@thanks');
 
-    // Payment
-    Route::get('/payment','ProductsController@payment');
-
     // Users Orders
     Route::get('user/orders/{id?}','OrderController@orders');
-
 
     }); 
 

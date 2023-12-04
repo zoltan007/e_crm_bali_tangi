@@ -18,7 +18,7 @@
                 <h4 class="card-title">Kelola Newsletter</h4>                
                 <p>  Kelola dan kirim newsletter kepada subscriber menggunakan Mailchimp. Kirimkan promosi, kabar terbaru serta penawaran khusus untuk pelanggan Anda melalui e-mail. Silahkan log in dengan e-mail dan password yang sudah didaftarkan. </p>
                  <br>           
-                 <a class="btn btn-warning" href="https://login.mailchimp.com/" target="_blank">Kunjungi dashboard Mailchimp</a>
+                 <a class="btn btn-warning" href="https://login.mailchimp.com/" target="_blank">Kunjungi dashboard Mailchimp</a>                 
                 </div>                  
             </div>                                    
         </div>
